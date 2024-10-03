@@ -5,7 +5,7 @@ import vue from '@vitejs/plugin-vue'
 
 // https://vitejs.dev/config/
 export default defineConfig({
-  base: "/todo-app-fem/",
+  base: "https://resul-elezi.github.io/todo-app-fem/",
   plugins: [
     vue(),
   ],
