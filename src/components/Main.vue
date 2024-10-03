@@ -1,9 +1,9 @@
-<!-- eslint-disable vue/multi-word-component-names -->
+
 <script>
 </script>
 
 <template>
-    <p>Todo</p>
+    
 
 <!-- Add dynamic number --> items left
 
