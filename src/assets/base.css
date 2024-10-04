@@ -50,15 +50,31 @@
   }
 } */
 :root {
+  /* Primary colors */
+  
   --bright-blue: hsl(220, 98%, 61%);
-  --very-light-gray: hsl(0, 0%, 98%);
-  --very-light-grayish-blue:hsl(236, 33%, 92%);
-  --light-grayish-blue: hsl(233, 11%, 84%);
-  --dark-grayish-blue: hsl(236, 9%, 61%);
-  --very-dark-grayish-blue: hsl(235, 19%, 35%);
+  --linear-gradient-from: hsl(192, 100%, 67%);
+  --linear-gradient-to: hsl(280, 87%, 65%);
+
+  /* Light theme colors */
+  
+  --lth-very-light-gray: hsl(0, 0%, 98%);
+  --lth-very-light-grayish-blue:hsl(236, 33%, 92%);
+  --lth-light-grayish-blue: hsl(233, 11%, 84%);
+  --lth-dark-grayish-blue: hsl(236, 9%, 61%);
+  --lth-very-dark-grayish-blue: hsl(235, 19%, 35%);
+
+  /* Dark theme colors */
+  --dth-very-dark-blue: hsl(235, 21%, 11%);
+  --dth-very-dark-desaturated-blue: hsl(235, 24%, 19%);
+  --dth-light-grayish-blue: hsl(234, 39%, 85%);
+  --dth-light-grayish-blue: hsl(236, 33%, 92%);/* hover */
+  --dth-dark-grayish-blue: hsl(234, 11%, 52%);
+  --dth-very-dark-grayish-blue-01: hsl(233, 14%, 35%);
+  --dth-very-dark-grayish-blue-02: hsl(237, 14%, 26%);
 }
 :root[data-theme="light"] {
-  --color-background: var(--very-light-gray);
+  --color-background: var(--lth-very-light-gray);
   --color-background-soft: var(--vt-c-white-soft);
   --color-background-mute: var(--vt-c-white-mute);
   --color-border: var(--vt-c-divider-light-2);
@@ -87,7 +103,8 @@
 }
 
 body {
-  max-width: 90rem;
-  margin: 0 auto;
   font-family: "Josefin Sans", sans-serif;
+  font-size: 10px;
+  margin: 0 auto;
+  max-width: 90rem;
 }
