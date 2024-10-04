@@ -1,11 +1,13 @@
 <script setup>
-import icon from '@/assets/img/icon-moon.svg'
+import iconMoon from '@/assets/img/icon-moon.svg'
+import iconSun from '@/assets/img/icon-sun.svg'
 </script>
 
 <template class="hero">
     <div class="bg">
       <h1>Todo</h1>
-      <img :src="icon" alt="Moon Icon">
+      <img :src="iconMoon" alt="Moon Icon">
+      <img :src="iconSun" alt="Sun Icon">
     </div>
   </template>
   
