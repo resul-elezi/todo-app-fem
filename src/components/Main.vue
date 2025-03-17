@@ -1,7 +1,6 @@
 <script setup>
 </script>
 <template>
-
 <!-- Add dynamic number --> items left
 
 All
